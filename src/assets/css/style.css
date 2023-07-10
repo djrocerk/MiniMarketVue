@@ -1,0 +1,58 @@
+:root {
+    --main-bg-color: blueviolet;
+    --second-bg-color: aliceblue;
+    --third-bg-color: lightgray;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.w-70{
+    width: 70%;
+}
+
+.w-30{
+    width: 25%;
+}
+
+h2{
+    margin: 0;
+    color: var(--main-bg-color);
+}
+
+hr{
+    background-color: var(--main-bg-color);
+    height: 1px;
+    opacity: 0.5;
+}
+
+.hr-vertical{
+    background-color: var(--main-bg-color);
+    width: 100%;
+}
+
+.element-cuantity {
+    display: flex;
+    position: absolute;
+    z-index: 10;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: var(--main-bg-color);
+    text-align: center;
+    font-size: 10px;
+    color: var(--second-bg-color);
+}
+
+.element-cuantity span {
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.list-group {
+    list-style: none;
+}
